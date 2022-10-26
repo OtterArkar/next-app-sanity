@@ -1,0 +1,8 @@
+{
+  "runtime": "edge",
+  "name": "api/hello",
+  "deploymentTarget": "v8-worker",
+  "entrypoint": "index.js",
+  "envVarsInUse": [],
+  "assets": []
+}
