@@ -10,6 +10,8 @@ const STUDIO_REWRITE = {
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+
+  rewrites: () => [STUDIO_REWRITE],
 };
 
 module.exports = nextConfig;
