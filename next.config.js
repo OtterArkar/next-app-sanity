@@ -11,6 +11,9 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   rewrites: () => [STUDIO_REWRITE],
+  experimental: {
+    runtime: "experimental-edge",
+  },
 };
 
 module.exports = nextConfig;
