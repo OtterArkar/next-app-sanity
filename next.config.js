@@ -10,7 +10,6 @@ const STUDIO_REWRITE = {
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  rewrites: () => [STUDIO_REWRITE],
   experimental: {
     runtime: "experimental-edge",
   },
